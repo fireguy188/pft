@@ -1,0 +1,32 @@
+body {
+background-image: url('man2.jpg');
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+.thing {
+position: absolute;
+width: 200px;
+height: 50px;
+top: 50%;
+left: 43%;
+text-indent: 20px;
+border-radius: 50px;
+}
+
+.answer {
+position: absolute;
+top: 60%;
+left: 40%;
+height: 150px; 
+width: 300px;
+text-align: center;
+font-family: 'Montserrat';
+font-size: 20px;
+color: yellow;
+background-color: red;
+border-color: yellow;
+border-style: solid;
+border-radius: 100px;
+cursor: pointer;
+}

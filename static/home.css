@@ -1,0 +1,43 @@
+body {
+background-image: url('man2.jpg');
+background-repeat: no-repeat;
+background-size: 100%;
+}
+p {
+position: absolute;
+top: 40%;
+left: 27%;
+font-family: 'Montserrat';
+font-size: 30px;
+font-weight: bold;
+color: FF2E00;
+}
+
+.buttons {
+position: absolute;
+top: 50%;
+left: 25%
+}
+
+button {
+border-radius: 100px;
+cursor: pointer;
+}
+
+.number {
+font-family: 'Montserrat';
+font-size: 20px;
+color: yellow;
+background-color: red;
+border-color: yellow;
+border-style: solid;
+}
+
+.name {
+font-family: 'Montserrat';
+font-size: 20px;
+color: yellow;
+background-color: red;
+border-color: yellow;
+border-style: solid;
+}

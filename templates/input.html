@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<link rel='stylesheet' href={{ url_for('static', filename='input.css') }} >
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+		<title>
+			{% block title %}{% endblock %}
+		</title>
+	</head>
+	<body>
+		<form action='#' method='post'>
+			<input type='text' name='thing' class='thing' placeholder={% block placehold %}{% endblock %}></input>
+			<input type='Submit' class='answer'>Submit</input>
+		</form>
+	</body>
+</html>

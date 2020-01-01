@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<link rel='stylesheet' href={{ url_for('static', filename='final.css') }} >
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+		<title>
+			PTFS
+		</title>
+	</head>
+	<body>
+		{% for thing in together %}
+			{% if 'ashx' in thing %}:
+				<video controls="" autoplay="" name="media"><source src={{thing}} type="video/mp4"></video>
+			{% else %}:
+				<p>{{thing}}</p>
+			{% endif %}
+		{% endfor %}
+	</body>
+</html>

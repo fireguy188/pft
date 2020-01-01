@@ -1,0 +1,25 @@
+body {
+background-image: url('man2.jpg');
+background-repeat: no-repeat;
+background-size: 100%;
+background-attachment: fixed;
+}
+
+p {
+text-align: center;
+color: FF2E00;
+font-family: 'Montserrat';
+font-weight: bold;
+margin-top: 500px;
+margin-bottom: 100px;
+}
+
+video {
+position: absolute;
+left: 27%;
+margin-bottom: 10px;
+}
+
+* > :first-child { 
+margin-top: 0 !important; 
+}

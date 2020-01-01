@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<link rel='stylesheet' href={{ url_for('static', filename='home.css') }} >
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+		<title>
+			PFT Finder
+		</title>
+	</head>
+	<body>
+		<p>Would you like to search by number or name?</p>
+		<div class='buttons'>
+			<button type='button' class='number' style='height: 150px; width: 300px; margin: 50px' onclick="window.location.href = '/number';">Number</button>
+			<button type='button' class='name' style='height: 150px; width: 300px; font-family: 'Montserrat';
+font-size: 10px' onclick="window.location.href = '/name';">Name</button>
+		</div>
+	</body>
+</html>
